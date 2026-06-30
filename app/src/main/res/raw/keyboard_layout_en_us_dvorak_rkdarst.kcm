@@ -142,6 +142,7 @@ key APOSTROPHE {
     label:                              '\''
     base:                               '\''
     shift:                              '"'
+    ralt:                               replace PAGE_UP
 }
 
 key COMMA {
@@ -154,18 +155,23 @@ key PERIOD {
     label:                              '.'
     base:                               '.'
     shift:                              '>'
+    ralt:                               replace DPAD_UP
 }
 
 key P {
     label:                              'P'
     base:                               'p'
     shift, capslock:                    'P'
+    ralt:                               '{'
+    shift+ralt:                         '['
 }
 
 key Y {
     label:                              'Y'
     base:                               'y'
     shift, capslock:                    'Y'
+    ralt:                               '}'
+    shift+ralt:                         ']'
 }
 
 key F {
@@ -222,32 +228,35 @@ key A {
     label:                              'A'
     base:                               'a'
     shift, capslock:                    'A'
-#   ralt:                               FORWARD_DEL
+    ralt:                               replace FORWARD_DEL
 }
 
 key O {
     label:                              'O'
     base:                               'o'
     shift, capslock:                    'O'
-#    ralt:                               DPAD_LEFT
+    ralt:                               replace DPAD_LEFT
 }
 
 key E {
     label:                              'E'
     base:                               'e'
     shift, capslock:                    'E'
+    ralt:                                replace DPAD_DOWN
 }
 
 key U {
     label:                              'U'
     base:                               'u'
     shift, capslock:                    'U'
+    ralt:                                replace DPAD_RIGHT
 }
 
 key I {
     label:                              'I'
     base:                               'i'
     shift, capslock:                    'I'
+    ralt:                               '\\'
 }
 
 key D {
@@ -292,6 +301,7 @@ key SEMICOLON {
     label:                              ';'
     base:                               ';'
     shift:                              ':'
+    ralt:                               replace PAGE_DOWN
 }
 
 key Q {
