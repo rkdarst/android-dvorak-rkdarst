@@ -23,6 +23,15 @@ have some peculiarities:
     action key would override these shortcuts, and the "ralt" key
     wasn't what I expected.
 
+
+Tuples of (keycode, original key, what I want it to be - from ExKeyMo web)
+- (29, CTRL_LEFT, ALT_LEFT)
+- (56, ALT_LEFT, CTRL_LEFT)
+- (126, META_RIGHT)
+- (100, ALT_RIGHT)
+- (97 CTRL_RIGHT)
+
+
 For security I made a new project and manually set it up, so that I
 wasn't using someone else's compiled code.
 
