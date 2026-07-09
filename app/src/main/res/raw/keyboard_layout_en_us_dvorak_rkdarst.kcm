@@ -362,7 +362,7 @@ key Z {
 map key 58 DEL
 map key 14 CAPS_LOCK
 map key 29 ALT_LEFT
-map key 56 ALT_RIGHT
+map key 56 CTRL_LEFT
 #map key 2 7
 #map key 3 5
 #map key 4 3

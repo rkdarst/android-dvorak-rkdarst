@@ -24,7 +24,7 @@ have some peculiarities:
     wasn't what I expected.
 
 
-Tuples of (keycode, original key, what I want it to be - from ExKeyMo web)
+Tuples of (keycode, original key, what I want it to be) - keycodes from ExKeyMo web.
 - (29, CTRL_LEFT, ALT_LEFT)
 - (56, ALT_LEFT, CTRL_LEFT)
 - (126, META_RIGHT)
@@ -41,3 +41,11 @@ development (really, this was a struggle to figure out):
 - https://github.com/ris58h/custom-keyboard-layout
 - https://codebenchers.com/blog/android-keyboard-remapping-arrow-keys-kcm
   (the 'replace' keyword in the .kcm file)
+- [Generic.kl](https://android.googlesource.com/platform/frameworks/base/+/master/data/keyboards/Generic.kl)
+- [Generic.kcm](https://android.googlesource.com/platform/frameworks/base/+/master/data/keyboards/Generic.kcm)
+
+
+Version history:
+
+- 3: fix what appears to be a bug with the left control definitions.
+  The "new" LCtrl (physical LAlt button) doesn't seem to be working here.
