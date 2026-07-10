@@ -30,6 +30,9 @@ Tuples of (keycode, original key, what I want it to be) - keycodes from ExKeyMo 
 - (126, META_RIGHT)
 - (100, ALT_RIGHT)
 - (97 CTRL_RIGHT)
+- (125, META_LEFT)  (windows)
+- (126, META_RIGHT)  (command/mac-option)
+- (464, FUNCTION)
 
 
 For security I made a new project and manually set it up, so that I
