@@ -1,7 +1,17 @@
 # My android keyboard layout.
 
-This is a hack-ish construction of a custom keyboard layout for me. I
-have some peculiarities:
+This is a hack-ish construction of a custom Android physical keyboard
+layout for me.  This is *not* an on-screen keyboard layout (that's
+normal Dvorak).  If you connect a bluetooth/wired keyboard, and you
+search "physical keyboard" in the settings, you can go there and set
+specific layouts for the physical keyboard.  Dig around and you'll
+find it.  This setting allows me to use all the custom things I have
+set up below.
+
+The keyboard layout is `English (US), Dvorak rkdarst` on the list.
+
+I have some peculiarities to my layout.  It is like a Dvorak layout,
+but:
 
 - capslock and backspace swapped
 - left control and left alt switched
@@ -18,13 +28,15 @@ have some peculiarities:
   - "r" -> '{' (']' if shifted)
   - "r" -> '}' (']' if shifted)
   - "g" -> '\'
-  - For these, I had to adjust the modifier keys to change the "action
-    key" to "alt" in the physical keyboard settings.  Otherwise the
-    action key would override these shortcuts, and the "ralt" key
-    wasn't what I expected.
+  - **Setup:** For these, I had to adjust the modifier keys (within
+    the physical keyboard settings) to change the "action key" to
+    "Alt".  Otherwise right alt is some action key that does some
+    other Android hotkey stuff.  would key did some other Android
+    hotkey stuff.
 
 
-Tuples of (keycode, original key, what I want it to be) - keycodes from ExKeyMo web.
+Tuples of (keycode, original key, what I want it to be) - keycodes
+from ExKeyMo web:
 - (29, CTRL_LEFT, ALT_LEFT)
 - (56, ALT_LEFT, CTRL_LEFT)
 - (126, META_RIGHT)
