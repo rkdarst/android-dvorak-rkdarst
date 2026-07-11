@@ -64,3 +64,8 @@ Version history:
 
 - 3: fix what appears to be a bug with the left control definitions.
   The "new" LCtrl (physical LAlt button) doesn't seem to be working here.
+
+
+## License
+
+CC-0
